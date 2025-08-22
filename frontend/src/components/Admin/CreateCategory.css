@@ -1,0 +1,116 @@
+/* ======== GLOBAL RESET ======== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== CONTAINER ======== */
+.create-category-container {
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ======== FORM STYLING ======== */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.form-input {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 8px rgba(63, 81, 181, 0.3);
+}
+
+/* ======== BUTTONS ======== */
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #303f9f;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(63, 81, 181, 0.4);
+}
+
+/* ======== BACK BUTTON ======== */
+.back-button-wrapper {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.back-button {
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #6c757d;
+  color: #6c757d;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #6c757d;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* ======== HEADING ======== */
+.create-category-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+  .create-category-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .submit-button,
+  .back-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .back-button-wrapper {
+    text-align: center;
+  }
+}
