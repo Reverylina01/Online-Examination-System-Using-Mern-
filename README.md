@@ -1,4 +1,4 @@
-
+Online Examination System (MERN Stack)
 
 A modern, scalable online examination platform built using the MERN stack (MongoDB, Express.js, React, Node.js).
 
