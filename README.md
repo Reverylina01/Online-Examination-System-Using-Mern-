@@ -1,10 +1,10 @@
-Online Examination System (MERN Stack)
+# **Online Examination System (MERN Stack)** 🚀
 
 A modern, scalable online examination platform built using the MERN stack (MongoDB, Express.js, React, Node.js).
 
 ---
 
-## Table of Contents
+## Table of Contents 📚
 
 * [Overview](#overview)
 * [Features](#features)
@@ -23,25 +23,25 @@ A modern, scalable online examination platform built using the MERN stack (Mongo
 
 ---
 
-## Overview
+## Overview 📝
 
 This system allows administrators to create and manage exams while students can take exams and view results. It offers user authentication, secure exam access, and real-time evaluation.
 
 ---
 
-## Features
+## Features ✨
 
-* Secure student and admin authentication
-* Create, schedule, and manage exams
-* Real-time participation and submission
-* Auto-evaluation and analytics dashboard
-* RESTful APIs with Express and Node.js
-* Responsive frontend using React
-* MongoDB database for data persistence
+* 🔐 Secure student and admin authentication
+* 📝 Create, schedule, and manage exams
+* ⏱ Real-time participation and submission
+* 📊 Auto-evaluation and analytics dashboard
+* ⚡ RESTful APIs with Express and Node.js
+* 💻 Responsive frontend using React
+* 🗄 MongoDB database for data persistence
 
 ---
 
-## Project Structure
+## Project Structure 🗂
 
 ```
 Online-Examination-System-Using-Mern-/
@@ -67,22 +67,22 @@ Online-Examination-System-Using-Mern-/
 
 ---
 
-## Getting Started
+## Getting Started 🛠
 
-### Prerequisites
+### Prerequisites 📋
 
 * Node.js >= 14
 * npm or yarn
 * MongoDB (local or cloud)
 
-### Installation
+### Installation ⬇️
 
 ```bash
 git clone https://github.com/Reverylina01/Online-Examination-System-Using-Mern-.git
 cd Online-Examination-System-Using-Mern-
 ```
 
-### Environment Setup
+### Environment Setup ⚙️
 
 Create `.env` files in `Backend` and `frontend`:
 
@@ -90,7 +90,7 @@ Create `.env` files in `Backend` and `frontend`:
 
 ```
 MONGO_URI=your_mongodb_connection_string
-PORT=5001
+PORT=5000
 ```
 
 **frontend/.env:**
@@ -99,7 +99,7 @@ PORT=5001
 REACT_APP_API_URL=http://localhost:5000/api
 ```
 
-### Running the Project
+### Running the Project ▶️
 
 Open two terminals:
 
@@ -123,14 +123,14 @@ Visit `http://localhost:3000` in your browser.
 
 ---
 
-## Testing
+## Testing 🧪
 
 * Use Postman or Insomnia for API testing.
 * Use React Testing Library or Cypress for frontend tests.
 
 ---
 
-## Deployment
+## Deployment 🌐
 
 * **Backend:** Deploy using Heroku, AWS, or Render.
 * **Frontend:** Deploy using Netlify, Vercel, or GitHub Pages.
@@ -139,7 +139,7 @@ Ensure production environment variables are configured properly.
 
 ---
 
-## Contributing
+## Contributing 🤝
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -149,17 +149,15 @@ Ensure production environment variables are configured properly.
 
 ---
 
-## License
+## License 📄
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## Contact
+## Contact 📬
 
 * **Author:** Reverylina
+* **Email:** linadas970@gmail.com
 * **GitHub:** [Reverylina01](https://github.com/Reverylina01)
 * **Project URL:** [Online Examination System Using MERN](https://github.com/Reverylina01/Online-Examination-System-Using-Mern-)
-
-
-
