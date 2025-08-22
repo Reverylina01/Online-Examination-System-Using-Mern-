@@ -1,5 +1,4 @@
-﻿# Online-Examination-System-Using-Mern-
- # Online Examination System (MERN Stack)
+
 
 A modern, scalable online examination platform built using the MERN stack (MongoDB, Express.js, React, Node.js).
 
@@ -161,5 +160,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 * **Author:** Reverylina
 * **GitHub:** [Reverylina01](https://github.com/Reverylina01)
 * **Project URL:** [Online Examination System Using MERN](https://github.com/Reverylina01/Online-Examination-System-Using-Mern-)
+
 
 
