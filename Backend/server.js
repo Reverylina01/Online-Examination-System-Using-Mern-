@@ -13,7 +13,7 @@ app.use(express.json());
 // Import database connection function
 const connectToMongoDB = require('./api/config/db');
 
-// Import Routes
+// Import Controllers
 const userController = require('./api/controllers/userController');
 const questionController = require('./api/controllers/questionController');
 const examController = require('./api/controllers/examController');
@@ -21,7 +21,7 @@ const resultController = require('./api/controllers/resultController');
 const categoryController = require('./api/controllers/categoryController');
 const { adminsignup, adminlogin } = require('./api/controllers/userController');
 
-// Additional Routes
+// Import Routes
 app.use('/api/courses', require('./api/routes/courseRoutes'));
 app.use('/api/payment', require('./api/routes/paymentRoutes'));
 
@@ -79,11 +79,16 @@ app.post(
   }
 );
 
-// Default route for unmatched endpoints
-app.use((req, res) => {
-  res.status(404).json({ message: 'Endpoint not found' });
+// ✅ Root route (for testing)
+app.get('/', (req, res) => {
+  res.send('Online Examination API is running 🚀');
+});
+
+// 404 handler only for API routes
+app.use('/api/*', (req, res) => {
+  res.status(404).json({ message: 'API endpoint not found' });
 });
 
 // Start the server
-const PORT = process.env.PORT || 5001; // Standardized port
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
